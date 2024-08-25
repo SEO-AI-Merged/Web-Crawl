@@ -10,7 +10,6 @@ async function crawlWebsite(url: string) {
       )}`
     );
 
-    console.log("Status:", response.status);
     console.log("Data:", response.data);
   } catch (error) {
     console.error("Error crawling the website:", error);
