@@ -21,8 +21,8 @@ const Layout = () => {
 
     return (
         <>
-            <div className="flex gap-4">
-                <div className="flex flex-col p-6 w-[200px] h-screen bg-indigo-600">
+            <div className="flex gap-4 w-full">
+                <div className="flex flex-col p-6 w-[200px] h-auto bg-indigo-600">
                     <div >
                         <div className="flex h-16 shrink-0 items-center">
                             <img
@@ -62,7 +62,7 @@ const Layout = () => {
                     </div>
                 </div>
                 <div className='w-full'>
-                    <div className="sticky top-0 z-9 flex h-16 shrink-0 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
+                    {/* <div className="sticky top-0 z-9 flex h-16 shrink-0 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
                         <button type="button" onClick={() => setSidebarOpen(true)} className="-m-2.5 p-2.5 text-gray-700 lg:hidden">
                             <span className="sr-only">Open sidebar</span>
                             <Bars3Icon aria-hidden="true" className="h-6 w-6" />
@@ -117,8 +117,8 @@ const Layout = () => {
                                 </Menu>
                             </div>
                         </div>
-                    </div>
-                    <div className='mt-6'>
+                    </div> */}
+                    <div className=''>
                         <Outlet />
                     </div>
                 </div>
